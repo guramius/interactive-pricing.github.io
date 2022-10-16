@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>interactive-pricing</title>
+</head>
+<body>
+    <div class="mainContent">
+        <img class="bgImg" src="./images/Rectangle.png" alt="">
+        <div class="title">
+            <img src="./images/oval.png" alt="">
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required. </p>
+        </div>
+            <div class="cardBox">
+                <div class="rangeBox">
+                    <div class="amount">
+                        <h2>100K PAGEVIEWS</h2>
+                        <p>
+                            $
+                            <span class="value" id="valueSpan"></span>
+                            <span class="month">/ month</span>
+                        </p>
+                    </div>
+                    <input type="range" class="rangeInput"  value="16" id="myRange">
+                    <div class="toggleBox">
+                        <p>Monthly Billing</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="sliderButon round"></span>
+                        </label>
+                        <p>Yearly Billing</p>
+                        <p class="discount">
+                            25% 
+                            <span>discount</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="checkBox">
+                    <div>
+                        <p>
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>
+                            Unlimited websites
+                        </p>
+                        <p class="marginTopBottom">
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>                    
+                            100% data ownership 
+                        </p>
+                        <p>
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>                    
+                            Email reports
+                        </p>
+                    </div>
+                    <button>Start my trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
